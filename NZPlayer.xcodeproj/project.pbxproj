@@ -7,166 +7,164 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		542C9A3518842973003F9BA9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542C9A3418842973003F9BA9 /* AVFoundation.framework */; };
-		545D4CF81883F5B00031F9A8 /* NZToolbarDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 545D4CF71883F5B00031F9A8 /* NZToolbarDelegate.m */; };
-		54818711188329A0009B5F30 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54818710188329A0009B5F30 /* Cocoa.framework */; };
-		5481871B188329A0009B5F30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54818719188329A0009B5F30 /* InfoPlist.strings */; };
-		5481871D188329A0009B5F30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5481871C188329A0009B5F30 /* main.m */; };
-		54818721188329A0009B5F30 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5481871F188329A0009B5F30 /* Credits.rtf */; };
-		54818724188329A0009B5F30 /* NZDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 54818723188329A0009B5F30 /* NZDocument.m */; };
-		54818727188329A0009B5F30 /* NZDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54818725188329A0009B5F30 /* NZDocument.xib */; };
-		5481872A188329A0009B5F30 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54818728188329A0009B5F30 /* MainMenu.xib */; };
-		5481872D188329A0009B5F30 /* NZDocument.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5481872B188329A0009B5F30 /* NZDocument.xcdatamodeld */; };
-		5481872F188329A0009B5F30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5481872E188329A0009B5F30 /* Images.xcassets */; };
-		54818736188329A1009B5F30 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54818735188329A1009B5F30 /* XCTest.framework */; };
-		54818737188329A1009B5F30 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54818710188329A0009B5F30 /* Cocoa.framework */; };
-		5481873F188329A1009B5F30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5481873D188329A1009B5F30 /* InfoPlist.strings */; };
-		54818741188329A1009B5F30 /* NZPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54818740188329A1009B5F30 /* NZPlayerTests.m */; };
+		5407EA6F1885D90600006C06 /* NZPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 5407EA6E1885D90600006C06 /* NZPlaylist.m */; };
+		5407EA721885DDCA00006C06 /* NZTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5407EA711885DDCA00006C06 /* NZTrack.m */; };
+		549F2D9C188488D700AB860D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549F2D9B188488D700AB860D /* Cocoa.framework */; };
+		549F2DA6188488D700AB860D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 549F2DA4188488D700AB860D /* InfoPlist.strings */; };
+		549F2DA8188488D700AB860D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 549F2DA7188488D700AB860D /* main.m */; };
+		549F2DAC188488D700AB860D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 549F2DAA188488D700AB860D /* Credits.rtf */; };
+		549F2DAF188488D700AB860D /* NZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 549F2DAE188488D700AB860D /* NZAppDelegate.m */; };
+		549F2DB2188488D700AB860D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 549F2DB0188488D700AB860D /* MainMenu.xib */; };
+		549F2DB4188488D700AB860D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549F2DB3188488D700AB860D /* Images.xcassets */; };
+		549F2DBB188488D700AB860D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549F2DBA188488D700AB860D /* XCTest.framework */; };
+		549F2DBC188488D700AB860D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549F2D9B188488D700AB860D /* Cocoa.framework */; };
+		549F2DC4188488D700AB860D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 549F2DC2188488D700AB860D /* InfoPlist.strings */; };
+		549F2DC6188488D700AB860D /* NZPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 549F2DC5188488D700AB860D /* NZPlayerTests.m */; };
+		549F2DD1188494E800AB860D /* NZMusicLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 549F2DD0188494E800AB860D /* NZMusicLibrary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		54818738188329A1009B5F30 /* PBXContainerItemProxy */ = {
+		549F2DBD188488D700AB860D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 54818705188329A0009B5F30 /* Project object */;
+			containerPortal = 549F2D90188488D700AB860D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5481870C188329A0009B5F30;
-			remoteInfo = "player-Z";
+			remoteGlobalIDString = 549F2D97188488D700AB860D;
+			remoteInfo = NZPlayer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		542C9A3418842973003F9BA9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		545D4CF61883F5B00031F9A8 /* NZToolbarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NZToolbarDelegate.h; sourceTree = "<group>"; };
-		545D4CF71883F5B00031F9A8 /* NZToolbarDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NZToolbarDelegate.m; sourceTree = "<group>"; };
-		5481870D188329A0009B5F30 /* NZPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NZPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		54818710188329A0009B5F30 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		54818713188329A0009B5F30 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		54818714188329A0009B5F30 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		54818715188329A0009B5F30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		54818718188329A0009B5F30 /* NZPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NZPlayer-Info.plist"; sourceTree = "<group>"; };
-		5481871A188329A0009B5F30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5481871C188329A0009B5F30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5481871E188329A0009B5F30 /* NZPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NZPlayer-Prefix.pch"; sourceTree = "<group>"; };
-		54818720188329A0009B5F30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		54818722188329A0009B5F30 /* NZDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NZDocument.h; sourceTree = "<group>"; };
-		54818723188329A0009B5F30 /* NZDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NZDocument.m; sourceTree = "<group>"; };
-		54818726188329A0009B5F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/NZDocument.xib; sourceTree = "<group>"; };
-		54818729188329A0009B5F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		5481872C188329A0009B5F30 /* NZDocument.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NZDocument.xcdatamodel; sourceTree = "<group>"; };
-		5481872E188329A0009B5F30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		54818734188329A1009B5F30 /* NZPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NZPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		54818735188329A1009B5F30 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5481873C188329A1009B5F30 /* NZPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NZPlayerTests-Info.plist"; sourceTree = "<group>"; };
-		5481873E188329A1009B5F30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		54818740188329A1009B5F30 /* NZPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NZPlayerTests.m; sourceTree = "<group>"; };
+		5407EA6D1885D90500006C06 /* NZPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NZPlaylist.h; sourceTree = "<group>"; };
+		5407EA6E1885D90600006C06 /* NZPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NZPlaylist.m; sourceTree = "<group>"; };
+		5407EA701885DDCA00006C06 /* NZTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NZTrack.h; sourceTree = "<group>"; };
+		5407EA711885DDCA00006C06 /* NZTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NZTrack.m; sourceTree = "<group>"; };
+		549F2D98188488D700AB860D /* NZPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NZPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		549F2D9B188488D700AB860D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		549F2D9E188488D700AB860D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		549F2D9F188488D700AB860D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		549F2DA0188488D700AB860D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		549F2DA3188488D700AB860D /* NZPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NZPlayer-Info.plist"; sourceTree = "<group>"; };
+		549F2DA5188488D700AB860D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		549F2DA7188488D700AB860D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		549F2DA9188488D700AB860D /* NZPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NZPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		549F2DAB188488D700AB860D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		549F2DAD188488D700AB860D /* NZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NZAppDelegate.h; sourceTree = "<group>"; };
+		549F2DAE188488D700AB860D /* NZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NZAppDelegate.m; sourceTree = "<group>"; };
+		549F2DB1188488D700AB860D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		549F2DB3188488D700AB860D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		549F2DB9188488D700AB860D /* NZPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NZPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		549F2DBA188488D700AB860D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		549F2DC1188488D700AB860D /* NZPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NZPlayerTests-Info.plist"; sourceTree = "<group>"; };
+		549F2DC3188488D700AB860D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		549F2DC5188488D700AB860D /* NZPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NZPlayerTests.m; sourceTree = "<group>"; };
+		549F2DCF188494E800AB860D /* NZMusicLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NZMusicLibrary.h; sourceTree = "<group>"; };
+		549F2DD0188494E800AB860D /* NZMusicLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NZMusicLibrary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5481870A188329A0009B5F30 /* Frameworks */ = {
+		549F2D95188488D700AB860D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				542C9A3518842973003F9BA9 /* AVFoundation.framework in Frameworks */,
-				54818711188329A0009B5F30 /* Cocoa.framework in Frameworks */,
+				549F2D9C188488D700AB860D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54818731188329A1009B5F30 /* Frameworks */ = {
+		549F2DB6188488D700AB860D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54818737188329A1009B5F30 /* Cocoa.framework in Frameworks */,
-				54818736188329A1009B5F30 /* XCTest.framework in Frameworks */,
+				549F2DBC188488D700AB860D /* Cocoa.framework in Frameworks */,
+				549F2DBB188488D700AB860D /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		54818704188329A0009B5F30 = {
+		549F2D8F188488D600AB860D = {
 			isa = PBXGroup;
 			children = (
-				54818716188329A0009B5F30 /* NZPlayer */,
-				5481873A188329A1009B5F30 /* NZPlayerTests */,
-				5481870F188329A0009B5F30 /* Frameworks */,
-				5481870E188329A0009B5F30 /* Products */,
+				549F2DA1188488D700AB860D /* NZPlayer */,
+				549F2DBF188488D700AB860D /* NZPlayerTests */,
+				549F2D9A188488D700AB860D /* Frameworks */,
+				549F2D99188488D700AB860D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5481870E188329A0009B5F30 /* Products */ = {
+		549F2D99188488D700AB860D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5481870D188329A0009B5F30 /* NZPlayer.app */,
-				54818734188329A1009B5F30 /* NZPlayerTests.xctest */,
+				549F2D98188488D700AB860D /* NZPlayer.app */,
+				549F2DB9188488D700AB860D /* NZPlayerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5481870F188329A0009B5F30 /* Frameworks */ = {
+		549F2D9A188488D700AB860D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				542C9A3418842973003F9BA9 /* AVFoundation.framework */,
-				54818710188329A0009B5F30 /* Cocoa.framework */,
-				54818735188329A1009B5F30 /* XCTest.framework */,
-				54818712188329A0009B5F30 /* Other Frameworks */,
+				549F2D9B188488D700AB860D /* Cocoa.framework */,
+				549F2DBA188488D700AB860D /* XCTest.framework */,
+				549F2D9D188488D700AB860D /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		54818712188329A0009B5F30 /* Other Frameworks */ = {
+		549F2D9D188488D700AB860D /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				54818713188329A0009B5F30 /* AppKit.framework */,
-				54818714188329A0009B5F30 /* CoreData.framework */,
-				54818715188329A0009B5F30 /* Foundation.framework */,
+				549F2D9E188488D700AB860D /* AppKit.framework */,
+				549F2D9F188488D700AB860D /* CoreData.framework */,
+				549F2DA0188488D700AB860D /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		54818716188329A0009B5F30 /* NZPlayer */ = {
+		549F2DA1188488D700AB860D /* NZPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				54818722188329A0009B5F30 /* NZDocument.h */,
-				54818723188329A0009B5F30 /* NZDocument.m */,
-				54818725188329A0009B5F30 /* NZDocument.xib */,
-				54818728188329A0009B5F30 /* MainMenu.xib */,
-				5481872E188329A0009B5F30 /* Images.xcassets */,
-				5481872B188329A0009B5F30 /* NZDocument.xcdatamodeld */,
-				54818717188329A0009B5F30 /* Supporting Files */,
-				545D4CF61883F5B00031F9A8 /* NZToolbarDelegate.h */,
-				545D4CF71883F5B00031F9A8 /* NZToolbarDelegate.m */,
+				549F2DAD188488D700AB860D /* NZAppDelegate.h */,
+				549F2DAE188488D700AB860D /* NZAppDelegate.m */,
+				549F2DB0188488D700AB860D /* MainMenu.xib */,
+				549F2DB3188488D700AB860D /* Images.xcassets */,
+				549F2DA2188488D700AB860D /* Supporting Files */,
+				549F2DCF188494E800AB860D /* NZMusicLibrary.h */,
+				549F2DD0188494E800AB860D /* NZMusicLibrary.m */,
+				5407EA701885DDCA00006C06 /* NZTrack.h */,
+				5407EA711885DDCA00006C06 /* NZTrack.m */,
+				5407EA6D1885D90500006C06 /* NZPlaylist.h */,
+				5407EA6E1885D90600006C06 /* NZPlaylist.m */,
 			);
-			name = NZPlayer;
-			path = "player-Z";
+			path = NZPlayer;
 			sourceTree = "<group>";
 		};
-		54818717188329A0009B5F30 /* Supporting Files */ = {
+		549F2DA2188488D700AB860D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				54818718188329A0009B5F30 /* NZPlayer-Info.plist */,
-				54818719188329A0009B5F30 /* InfoPlist.strings */,
-				5481871C188329A0009B5F30 /* main.m */,
-				5481871E188329A0009B5F30 /* NZPlayer-Prefix.pch */,
-				5481871F188329A0009B5F30 /* Credits.rtf */,
+				549F2DA3188488D700AB860D /* NZPlayer-Info.plist */,
+				549F2DA4188488D700AB860D /* InfoPlist.strings */,
+				549F2DA7188488D700AB860D /* main.m */,
+				549F2DA9188488D700AB860D /* NZPlayer-Prefix.pch */,
+				549F2DAA188488D700AB860D /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5481873A188329A1009B5F30 /* NZPlayerTests */ = {
+		549F2DBF188488D700AB860D /* NZPlayerTests */ = {
 			isa = PBXGroup;
 			children = (
-				54818740188329A1009B5F30 /* NZPlayerTests.m */,
-				5481873B188329A1009B5F30 /* Supporting Files */,
+				549F2DC5188488D700AB860D /* NZPlayerTests.m */,
+				549F2DC0188488D700AB860D /* Supporting Files */,
 			);
-			name = NZPlayerTests;
-			path = "player-ZTests";
+			path = NZPlayerTests;
 			sourceTree = "<group>";
 		};
-		5481873B188329A1009B5F30 /* Supporting Files */ = {
+		549F2DC0188488D700AB860D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5481873C188329A1009B5F30 /* NZPlayerTests-Info.plist */,
-				5481873D188329A1009B5F30 /* InfoPlist.strings */,
+				549F2DC1188488D700AB860D /* NZPlayerTests-Info.plist */,
+				549F2DC2188488D700AB860D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -174,57 +172,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5481870C188329A0009B5F30 /* NZPlayer */ = {
+		549F2D97188488D700AB860D /* NZPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54818744188329A1009B5F30 /* Build configuration list for PBXNativeTarget "NZPlayer" */;
+			buildConfigurationList = 549F2DC9188488D700AB860D /* Build configuration list for PBXNativeTarget "NZPlayer" */;
 			buildPhases = (
-				54818709188329A0009B5F30 /* Sources */,
-				5481870A188329A0009B5F30 /* Frameworks */,
-				5481870B188329A0009B5F30 /* Resources */,
+				549F2D94188488D700AB860D /* Sources */,
+				549F2D95188488D700AB860D /* Frameworks */,
+				549F2D96188488D700AB860D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = NZPlayer;
-			productName = "player-Z";
-			productReference = 5481870D188329A0009B5F30 /* NZPlayer.app */;
+			productName = NZPlayer;
+			productReference = 549F2D98188488D700AB860D /* NZPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		54818733188329A1009B5F30 /* NZPlayerTests */ = {
+		549F2DB8188488D700AB860D /* NZPlayerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54818747188329A1009B5F30 /* Build configuration list for PBXNativeTarget "NZPlayerTests" */;
+			buildConfigurationList = 549F2DCC188488D700AB860D /* Build configuration list for PBXNativeTarget "NZPlayerTests" */;
 			buildPhases = (
-				54818730188329A1009B5F30 /* Sources */,
-				54818731188329A1009B5F30 /* Frameworks */,
-				54818732188329A1009B5F30 /* Resources */,
+				549F2DB5188488D700AB860D /* Sources */,
+				549F2DB6188488D700AB860D /* Frameworks */,
+				549F2DB7188488D700AB860D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				54818739188329A1009B5F30 /* PBXTargetDependency */,
+				549F2DBE188488D700AB860D /* PBXTargetDependency */,
 			);
 			name = NZPlayerTests;
-			productName = "player-ZTests";
-			productReference = 54818734188329A1009B5F30 /* NZPlayerTests.xctest */;
+			productName = NZPlayerTests;
+			productReference = 549F2DB9188488D700AB860D /* NZPlayerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		54818705188329A0009B5F30 /* Project object */ = {
+		549F2D90188488D700AB860D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = NZ;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = oxnz;
 				TargetAttributes = {
-					54818733188329A1009B5F30 = {
-						TestTargetID = 5481870C188329A0009B5F30;
+					549F2DB8188488D700AB860D = {
+						TestTargetID = 549F2D97188488D700AB860D;
 					};
 				};
 			};
-			buildConfigurationList = 54818708188329A0009B5F30 /* Build configuration list for PBXProject "NZPlayer" */;
+			buildConfigurationList = 549F2D93188488D700AB860D /* Build configuration list for PBXProject "NZPlayer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -232,107 +230,99 @@
 				en,
 				Base,
 			);
-			mainGroup = 54818704188329A0009B5F30;
-			productRefGroup = 5481870E188329A0009B5F30 /* Products */;
+			mainGroup = 549F2D8F188488D600AB860D;
+			productRefGroup = 549F2D99188488D700AB860D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5481870C188329A0009B5F30 /* NZPlayer */,
-				54818733188329A1009B5F30 /* NZPlayerTests */,
+				549F2D97188488D700AB860D /* NZPlayer */,
+				549F2DB8188488D700AB860D /* NZPlayerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5481870B188329A0009B5F30 /* Resources */ = {
+		549F2D96188488D700AB860D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54818727188329A0009B5F30 /* NZDocument.xib in Resources */,
-				5481872F188329A0009B5F30 /* Images.xcassets in Resources */,
-				5481871B188329A0009B5F30 /* InfoPlist.strings in Resources */,
-				54818721188329A0009B5F30 /* Credits.rtf in Resources */,
-				5481872A188329A0009B5F30 /* MainMenu.xib in Resources */,
+				549F2DA6188488D700AB860D /* InfoPlist.strings in Resources */,
+				549F2DB4188488D700AB860D /* Images.xcassets in Resources */,
+				549F2DAC188488D700AB860D /* Credits.rtf in Resources */,
+				549F2DB2188488D700AB860D /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54818732188329A1009B5F30 /* Resources */ = {
+		549F2DB7188488D700AB860D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5481873F188329A1009B5F30 /* InfoPlist.strings in Resources */,
+				549F2DC4188488D700AB860D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		54818709188329A0009B5F30 /* Sources */ = {
+		549F2D94188488D700AB860D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				545D4CF81883F5B00031F9A8 /* NZToolbarDelegate.m in Sources */,
-				54818724188329A0009B5F30 /* NZDocument.m in Sources */,
-				5481872D188329A0009B5F30 /* NZDocument.xcdatamodeld in Sources */,
-				5481871D188329A0009B5F30 /* main.m in Sources */,
+				5407EA721885DDCA00006C06 /* NZTrack.m in Sources */,
+				549F2DD1188494E800AB860D /* NZMusicLibrary.m in Sources */,
+				5407EA6F1885D90600006C06 /* NZPlaylist.m in Sources */,
+				549F2DAF188488D700AB860D /* NZAppDelegate.m in Sources */,
+				549F2DA8188488D700AB860D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54818730188329A1009B5F30 /* Sources */ = {
+		549F2DB5188488D700AB860D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54818741188329A1009B5F30 /* NZPlayerTests.m in Sources */,
+				549F2DC6188488D700AB860D /* NZPlayerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		54818739188329A1009B5F30 /* PBXTargetDependency */ = {
+		549F2DBE188488D700AB860D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5481870C188329A0009B5F30 /* NZPlayer */;
-			targetProxy = 54818738188329A1009B5F30 /* PBXContainerItemProxy */;
+			target = 549F2D97188488D700AB860D /* NZPlayer */;
+			targetProxy = 549F2DBD188488D700AB860D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		54818719188329A0009B5F30 /* InfoPlist.strings */ = {
+		549F2DA4188488D700AB860D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5481871A188329A0009B5F30 /* en */,
+				549F2DA5188488D700AB860D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		5481871F188329A0009B5F30 /* Credits.rtf */ = {
+		549F2DAA188488D700AB860D /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				54818720188329A0009B5F30 /* en */,
+				549F2DAB188488D700AB860D /* en */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		54818725188329A0009B5F30 /* NZDocument.xib */ = {
+		549F2DB0188488D700AB860D /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				54818726188329A0009B5F30 /* Base */,
-			);
-			name = NZDocument.xib;
-			sourceTree = "<group>";
-		};
-		54818728188329A0009B5F30 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54818729188329A0009B5F30 /* Base */,
+				549F2DB1188488D700AB860D /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		5481873D188329A1009B5F30 /* InfoPlist.strings */ = {
+		549F2DC2188488D700AB860D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5481873E188329A1009B5F30 /* en */,
+				549F2DC3188488D700AB860D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -340,7 +330,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		54818742188329A1009B5F30 /* Debug */ = {
+		549F2DC7188488D700AB860D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +367,7 @@
 			};
 			name = Debug;
 		};
-		54818743188329A1009B5F30 /* Release */ = {
+		549F2DC8188488D700AB860D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -408,67 +398,69 @@
 			};
 			name = Release;
 		};
-		54818745188329A1009B5F30 /* Debug */ = {
+		549F2DCA188488D700AB860D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "player-Z/NZPlayer-Prefix.pch";
-				INFOPLIST_FILE = "player-Z/NZPlayer-Info.plist";
-				PRODUCT_NAME = NZPlayer;
+				GCC_PREFIX_HEADER = "NZPlayer/NZPlayer-Prefix.pch";
+				INFOPLIST_FILE = "NZPlayer/NZPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		54818746188329A1009B5F30 /* Release */ = {
+		549F2DCB188488D700AB860D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "player-Z/NZPlayer-Prefix.pch";
-				INFOPLIST_FILE = "player-Z/NZPlayer-Info.plist";
-				PRODUCT_NAME = NZPlayer;
+				GCC_PREFIX_HEADER = "NZPlayer/NZPlayer-Prefix.pch";
+				INFOPLIST_FILE = "NZPlayer/NZPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		54818748188329A1009B5F30 /* Debug */ = {
+		549F2DCD188488D700AB860D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/player-Z.app/Contents/MacOS/player-Z";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NZPlayer.app/Contents/MacOS/NZPlayer";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "player-Z/player-Z-Prefix.pch";
+				GCC_PREFIX_HEADER = "NZPlayer/NZPlayer-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "player-ZTests/NZPlayerTests-Info.plist";
-				PRODUCT_NAME = NZPlayerTests;
+				INFOPLIST_FILE = "NZPlayerTests/NZPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		54818749188329A1009B5F30 /* Release */ = {
+		549F2DCE188488D700AB860D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/player-Z.app/Contents/MacOS/player-Z";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NZPlayer.app/Contents/MacOS/NZPlayer";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "player-Z/player-Z-Prefix.pch";
-				INFOPLIST_FILE = "player-ZTests/NZPlayerTests-Info.plist";
-				PRODUCT_NAME = NZPlayerTests;
+				GCC_PREFIX_HEADER = "NZPlayer/NZPlayer-Prefix.pch";
+				INFOPLIST_FILE = "NZPlayerTests/NZPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -477,47 +469,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		54818708188329A0009B5F30 /* Build configuration list for PBXProject "NZPlayer" */ = {
+		549F2D93188488D700AB860D /* Build configuration list for PBXProject "NZPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54818742188329A1009B5F30 /* Debug */,
-				54818743188329A1009B5F30 /* Release */,
+				549F2DC7188488D700AB860D /* Debug */,
+				549F2DC8188488D700AB860D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54818744188329A1009B5F30 /* Build configuration list for PBXNativeTarget "NZPlayer" */ = {
+		549F2DC9188488D700AB860D /* Build configuration list for PBXNativeTarget "NZPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54818745188329A1009B5F30 /* Debug */,
-				54818746188329A1009B5F30 /* Release */,
+				549F2DCA188488D700AB860D /* Debug */,
+				549F2DCB188488D700AB860D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54818747188329A1009B5F30 /* Build configuration list for PBXNativeTarget "NZPlayerTests" */ = {
+		549F2DCC188488D700AB860D /* Build configuration list for PBXNativeTarget "NZPlayerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54818748188329A1009B5F30 /* Debug */,
-				54818749188329A1009B5F30 /* Release */,
+				549F2DCD188488D700AB860D /* Debug */,
+				549F2DCE188488D700AB860D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		5481872B188329A0009B5F30 /* NZDocument.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				5481872C188329A0009B5F30 /* NZDocument.xcdatamodel */,
-			);
-			currentVersion = 5481872C188329A0009B5F30 /* NZDocument.xcdatamodel */;
-			path = NZDocument.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 54818705188329A0009B5F30 /* Project object */;
+	rootObject = 549F2D90188488D700AB860D /* Project object */;
 }

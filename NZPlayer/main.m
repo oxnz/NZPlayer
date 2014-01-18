@@ -1,8 +1,8 @@
 //
 //  main.m
-//  player-Z
+//  NZPlayer
 //
-//  Created by oxnz on 14-1-13.
+//  Created by oxnz on 14-1-14.
 //  Copyright (c) 2014年 oxnz. All rights reserved.
 //
 

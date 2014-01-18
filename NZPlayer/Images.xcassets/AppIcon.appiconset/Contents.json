@@ -1,63 +1,53 @@
 {
   "images" : [
     {
+      "idiom" : "mac",
       "size" : "16x16",
-      "idiom" : "mac",
-      "filename" : "20140113111110726_easyicon_net_16.png",
       "scale" : "1x"
     },
     {
+      "idiom" : "mac",
       "size" : "16x16",
-      "idiom" : "mac",
-      "filename" : "20140113111112948_easyicon_net_32.png",
       "scale" : "2x"
     },
     {
+      "idiom" : "mac",
       "size" : "32x32",
-      "idiom" : "mac",
-      "filename" : "20140113111112948_easyicon_net_32-1.png",
       "scale" : "1x"
     },
     {
+      "idiom" : "mac",
       "size" : "32x32",
-      "idiom" : "mac",
-      "filename" : "20140113111211110_easyicon_net_64.png",
       "scale" : "2x"
     },
     {
+      "idiom" : "mac",
       "size" : "128x128",
-      "idiom" : "mac",
-      "filename" : "20140113111142408_easyicon_net_128.png",
       "scale" : "1x"
     },
     {
+      "idiom" : "mac",
       "size" : "128x128",
-      "idiom" : "mac",
-      "filename" : "20140113111146963_easyicon_net_256.png",
       "scale" : "2x"
     },
     {
-      "size" : "256x256",
       "idiom" : "mac",
-      "filename" : "20140113111146963_easyicon_net_256-1.png",
+      "size" : "256x256",
       "scale" : "1x"
     },
     {
-      "size" : "256x256",
       "idiom" : "mac",
-      "filename" : "20140113110950700_easyicon_net_512.png",
+      "size" : "256x256",
       "scale" : "2x"
     },
     {
-      "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "20140113110950700_easyicon_net_512-1.png",
+      "size" : "512x512",
       "scale" : "1x"
     },
     {
-      "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "20140113111301200_easyicon_net_1024.png",
+      "size" : "512x512",
       "scale" : "2x"
     }
   ],

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>player-Z.xcscheme</key>
+		<key>NZPlayer.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5481870C188329A0009B5F30</key>
+		<key>549F2D97188488D700AB860D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>54818733188329A1009B5F30</key>
+		<key>549F2DB8188488D700AB860D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
